@@ -167,6 +167,7 @@ padding-bottom: 94px;
 }
 .advantages-list{
   display: flex;
+  gap:30px;
 }
 .advantages-main{
 font-weight: 700;
@@ -358,4 +359,39 @@ address .email, address .tel{
 }
 .toHide{
   display: none;
+}
+
+.icon-smartphone{
+  display: inline-block;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  /*padding-top: 32px;
+  padding-bottom: 32px;*/
+  fill: currentColor;
+}
+/*.icon-smartphone:hover, .icon-envelope:hover{
+  fill:var(--color-mainBlue);
+}*/
+.icon-envelope{
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.icons-advantages-block{
+height: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+background: var(--color-ghostWhite);
+border-radius: 4px;
+}
+.icons-advantages_1{
+display:block;
+width: 65px;
+height: 70px;
+
 }
