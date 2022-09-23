@@ -13,6 +13,7 @@
   --color-greatLight:#EEEEEE;
   --color-ghostWhite:#F5F4FA;
   --color-ghostWhite1:#ECECEC;
+  --color-middleGrey:#AFB1B8;
 }
 .header{
   height: 80px;
@@ -236,6 +237,54 @@ line-height: 1.2;
 color: var(--color-lightGray);
 text-align: center;
 }
+.social-links-list{
+  display: flex;
+  gap: 10px;
+  width: 206px;
+  height: 44px;
+  margin: 16px 32px 30px 32px;
+  background-color: var(--color-mainWhite);
+}
+.social-links-list li{
+  width: 44px;
+  height: 44px;
+}
+.social-links-list li a{
+  width: 44px;
+  height: 44px;
+}
+.social-link{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 12px;
+}
+.section-clients{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.client-list{
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+.client-list li{
+width: 170px;
+height: 92px;
+border: 1px solid var(--color-middleGrey);
+border-radius: 4px;
+}
+.client-list li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+}
+.client-list li a svg{
+  display: block;
+  width: 106px;
+  height: 60px;
+}
 /*Portfolio*/
 .section-portfolio{
  border-top: 1px solid  var(--color-ghostWhite1);
@@ -360,19 +409,13 @@ address .email, address .tel{
 .toHide{
   display: none;
 }
-
 .icon-smartphone{
   display: inline-block;
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  /*padding-top: 32px;
-  padding-bottom: 32px;*/
   fill: currentColor;
 }
-/*.icon-smartphone:hover, .icon-envelope:hover{
-  fill:var(--color-mainBlue);
-}*/
 .icon-envelope{
   display: inline-block;
   width: 16px;
@@ -393,5 +436,19 @@ border-radius: 4px;
 display:block;
 width: 65px;
 height: 70px;
-
 }
+.icons-advantages_2{
+  display:block;
+  width: 65px;
+  height: 70px;
+  }
+  .icons-advantages_3{
+    display:block;
+    width: 65px;
+    height: 70px;
+    }
+    .icons-advantages_4{
+      display:block;
+      width: 65px;
+      height: 70px;
+      }
