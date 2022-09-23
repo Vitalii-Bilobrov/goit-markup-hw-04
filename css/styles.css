@@ -252,12 +252,14 @@ text-align: center;
 .social-links-list li a{
   width: 44px;
   height: 44px;
+  display: inline-block;
 }
 .social-link{
   display: inline-block;
   width: 20px;
   height: 20px;
   padding: 12px;
+  color: var(--color-middleGrey);
 }
 .section-clients{
   padding-top: 94px;
