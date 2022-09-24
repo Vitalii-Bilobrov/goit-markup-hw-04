@@ -80,7 +80,8 @@ letter-spacing: 0.02em;
 margin-left:auto;
 }
 .tel-email li a{
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 32px 0;
   
 
@@ -388,6 +389,10 @@ border: none;
   margin-right: 8px;
   height: 38px;
 }
+.buttons-portfolio-list li button:hover, .buttons-portfolio-list li button:hover{
+border-radius: 4px;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .buttons-portfolio-list li:nth-child(1) button{
   padding: 6px 25px;
   width: 73px;
@@ -425,8 +430,13 @@ border: none;
   padding-top: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
-  
 }
+.project-list a:hover, .project-list a:focus{
+display: block;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius:4px;
+}
+
 .projects-name{
 font-weight: 700;
 font-size: 18px;
@@ -473,11 +483,12 @@ address .email, address .tel{
 }
 .footer .container{
   display: flex;
+  align-items: baseline;
 }
 .invite-container{
   margin-left: 70px;
 }
-.invite-container h2{
+.invite-container p{
   margin-bottom: 20px;
   color: var(--color-mainWhite);
   font-size: 14px;
