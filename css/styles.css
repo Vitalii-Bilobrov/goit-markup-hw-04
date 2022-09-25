@@ -332,29 +332,29 @@ margin-bottom: 50px;
   gap: 30px;
  
 }
-.client-list li{
+.client-list-item{
 width: 170px;
 height: 92px;
-border: 1px solid var(--color-middleGrey);
-border-radius: 4px;
 }
-.client-list li a{
+.client-link{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 92px;
+  height: 100%;
+  width: 100%;
+  color: var(--color-middleGrey);
+  border: 1px solid var(--color-middleGrey);
+border-radius: 4px;
 }
-.client-list li a svg{
+.client-image{
   display: block;
   width: 106px;
   height: 60px;
-  fill: var(--color-middleGrey);
+  fill: currentColor;
 }
-.client-list li:hover, .client-list li:active{
- border-color: var(--color-mainBlue)
-}
-.client-list li:hover > a svg{
-  fill: var(--color-mainBlue)
+.client-link:hover, .client-link:focus{
+  color: var(--color-mainBlue);
+  border-color: var(--color-mainBlue);
  }
 /*Portfolio*/
 .section-portfolio{
@@ -493,6 +493,7 @@ address .email, address .tel{
   color: var(--color-mainWhite);
   font-size: 14px;
   text-align: left;
+  font-weight: 700;
 }
 .invite-container .social-links-list{
   background-color: var(--color-darckGray);
